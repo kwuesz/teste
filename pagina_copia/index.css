@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+
+}
+
+.top-bar {
+    margin: auto;
+    background-color: #171d25;
+    width: 100%;
+    height: 105px;
+    position: relative;
+}
+
+.top-bar .logo {
+    position: absolute;
+    top: -4%;
+    left: 15%;
+
+    width: 14.5%;
+    height: 139%;
+    z-index: 5;
+}
+
+.top-bar .logo img {
+    width: 100%;
+    height: 80%;
+}
+
+.top-bar .icon_azul {
+    margin: auto;
+    position: absolute;
+    width: 5.8%;
+    height: 26.7%;
+    top: 55.5%;
+    left: 30.3%;
+}
+
+.top-bar .icon_azul img {
+    width: 100%;
+    height: 80%;
+}
+
+.top-bar .menu {
+    margin: auto;
+    position: absolute;
+    left: 31%;
+    top: 42%;
+    width: 42%;
+}
+
+.top-bar .menu a {
+    padding: 0.8%;
+    text-decoration: none;
+    color: #dcdedf;
+    font-family: 'Motiva Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.top-bar .menu a:hover {
+    color: white;
+}
+
+.top-bar .menu span {
+    padding: 0.8%;
+    text-decoration: none;
+    font-family: 'Motiva Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a9efd;
+}
+
+.top-bar .iconinstall {
+    margin: auto;
+    position: absolute;
+    width: 8.7%;
+    height: 24%;
+    z-index: 1;
+    top: 7%;
+    left: 63%;
+    background-color: #dcdedf;
+}
+
+.top-bar .iconinstall img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-bar .iconinstall img:hover {
+    opacity: 0.7;
+}
+
+.top-bar .notifications {
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    width: 3%;
+    height: 22%;
+    z-index: 1;
+    top: 7%;
+    left: 72%;
+}
+
+.top-bar .notifications img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-bar .notifications img:hover {
+    opacity: 0.7;
+}
+
+.top-bar .nome {
+    position: absolute;
+    top: 12%;
+    left: 75.5%;
+
+}
+
+.top-bar .nome p {
+    color: #B8B6B4;
+    font-family: 'Motiva Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.top-bar .nome p:hover {
+    color: white;
+}
+
+.top-bar .treco {
+    position: absolute;
+    top: 8%;
+    left: 78.8%;
+    width: 0.7%;
+    height: 9%;
+}
+
+.top-bar .treco img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.top-bar .perfil {
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    width: 2.5%;
+    height: 35%;
+}
+
+.top-bar .perfil img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.body {
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/background_hollow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body .list_desejo {
+    margin: auto;
+    position: absolute;
+    top: 1%;
+    left: 64.5%;
+    width: 10.3%;
+    height: 2.9%;
+    background-color: #739ca6;
+    box-shadow: 0.1em 0.1em #000000;
+}
+
+.body .list_desejo:hover {
+    opacity: 0;
+}
+
+.body .list_desejo p {
+    padding-top: 3px;
+    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    font-size: 11px;
+    color: white;
+}
+
+.body .list_desejo_hover {
+    margin: auto;
+    position: absolute;
+    top: 1%;
+    left: 64.5%;
+    width: 10.3%;
+    height: 2.9%;
+    background-color: rgb(255, 255, 255);
+    background-color: linear-gradient(90deg, rgba(255, 255, 255, 1) -25%, rgba(255, 255, 255, 1) 23%, rgb(0, 0, 0) 63%, rgba(0, 0, 0, 1) 77%);
+}
+
+.body .list_desejo_hover p {
+    padding-top: 3px;
+    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    font-size: 11px;
+    color: black;
+}
+
+.body .carrinho {
+
+    margin: auto;
+    position: absolute;
+    top: 1%;
+    left: 75%;
+    width: 7.5%;
+    height: 2.9%;
+    z-index: 1;
+    background-color: #5c7e10;
+}
+
+.body .carrinho:hover {
+    opacity: 0.8;
+}
+
+.body .carrinho_hover {
+    margin: auto;
+    position: absolute;
+    top: 1%;
+    left: 75%;
+    width: 7.5%;
+    height: 2.9%;
+    background-color: #ffffff;
+}
+
+.body .carrinho p {
+    padding-top: 3px;
+    padding-left: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+}
+
+.body .carrinho_icon {
+    margin: auto;
+    top: -10px;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    width: 15px;
+    height: 23px;
+
+}
+
+.body .carrinho_icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.body .head {
+    margin: auto;
+    position: absolute;
+    top: 4.5%;
+    left: 17%;
+    width: 65.5%;
+    height: 33px;
+    background: rgb(59, 99, 145);
+    background: linear-gradient(90deg, rgba(59, 99, 145, 1) -25%, rgba(52, 108, 157, 1) 47%, rgba(15, 33, 110, 1) 98%, rgba(16, 35, 111, 1) 99%);
+}
+
+.body head .head_menu {
+    opacity: 0;
+}
