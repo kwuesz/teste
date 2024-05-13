@@ -1,0 +1,520 @@
+::-webkit-scrollbar {
+    width: 14px;
+    background-color: #1b2838;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #434953;
+    border-radius: 10px;
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+
+}
+
+.top-bar {
+    margin: auto;
+    background-color: #171d25;
+    width: 100%;
+    height: 105px;
+    position: relative;
+}
+
+.top-bar .logo {
+    position: absolute;
+    top: -4%;
+    left: 15%;
+
+    width: 14.5%;
+    height: 139%;
+    z-index: 5;
+}
+
+.top-bar .logo img {
+    width: 100%;
+    height: 80%;
+}
+
+.top-bar .icon_azul {
+    margin: auto;
+    position: absolute;
+    width: 5.8%;
+    height: 26.7%;
+    top: 55.5%;
+    left: 30.3%;
+}
+
+.top-bar .icon_azul img {
+    width: 100%;
+    height: 80%;
+}
+
+.top-bar .menu {
+    margin: auto;
+    position: absolute;
+    left: 31%;
+    top: 42%;
+    width: 42%;
+}
+
+.top-bar .menu a {
+    padding: 0.8%;
+    text-decoration: none;
+    color: #dcdedf;
+    font-family: 'Motiva Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.top-bar .menu a:hover {
+    color: white;
+}
+
+.top-bar .menu span {
+    padding: 0.8%;
+    text-decoration: none;
+    font-family: 'Motiva Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a9efd;
+}
+
+.top-bar .iconinstall {
+    margin: auto;
+    position: absolute;
+    width: 8.7%;
+    height: 24%;
+    z-index: 1;
+    top: 7%;
+    left: 63%;
+    background-color: #dcdedf;
+}
+
+.top-bar .iconinstall img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-bar .iconinstall img:hover {
+    opacity: 0.7;
+}
+
+.top-bar .notifications {
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    width: 3%;
+    height: 22%;
+    z-index: 1;
+    top: 7%;
+    left: 72%;
+}
+
+.top-bar .notifications img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-bar .notifications img:hover {
+    opacity: 0.7;
+}
+
+.top-bar .nome {
+    position: absolute;
+    top: 12%;
+    left: 75.5%;
+
+}
+
+.top-bar .nome p {
+    color: #B8B6B4;
+    font-family: 'Motiva Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.top-bar .nome p:hover {
+    color: white;
+}
+
+.top-bar .treco {
+    position: absolute;
+    top: 8%;
+    left: 78.8%;
+    width: 0.7%;
+    height: 9%;
+}
+
+.top-bar .treco img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.top-bar .perfil {
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    width: 2.5%;
+    height: 35%;
+}
+
+.top-bar .perfil img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.body {
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagens/background_hollow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body .list_desejo {
+    margin: auto;
+    position: absolute;
+    top: 1%;
+    left: 64.5%;
+    width: 10.3%;
+    height: 2.9%;
+    background-color: #739ca6;
+    box-shadow: 0.1em 0.1em #000000;
+}
+
+.body .list_desejo:hover {
+    opacity: 0;
+}
+
+.body .list_desejo p {
+    padding-top: 3px;
+    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    font-size: 11px;
+    color: white;
+}
+
+.body .list_desejo_hover {
+    margin: auto;
+    position: absolute;
+    top: 1%;
+    left: 64.5%;
+    width: 10.3%;
+    height: 2.9%;
+    background-color: rgb(255, 255, 255);
+    background-color: linear-gradient(90deg, rgba(255, 255, 255, 1) -25%, rgba(255, 255, 255, 1) 23%, rgb(0, 0, 0) 63%, rgba(0, 0, 0, 1) 77%);
+}
+
+.body .list_desejo_hover p {
+    padding-top: 3px;
+    padding-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    font-size: 11px;
+    color: black;
+}
+
+.body .carrinho {
+
+    margin: auto;
+    position: absolute;
+    top: 1%;
+    left: 75%;
+    width: 7.5%;
+    height: 2.9%;
+    z-index: 1;
+    background-color: #5c7e10;
+}
+
+.body .carrinho:hover {
+    opacity: 0.8;
+}
+
+.body .carrinho_hover {
+    margin: auto;
+    position: absolute;
+    top: 1%;
+    left: 75%;
+    width: 7.5%;
+    height: 2.9%;
+    background-color: #ffffff;
+}
+
+.body .carrinho p {
+    padding-top: 3px;
+    padding-left: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+}
+
+.body .carrinho_icon {
+    margin: auto;
+    top: -10px;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    width: 15px;
+    height: 23px;
+
+}
+
+.body .carrinho_icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.body .head {
+    margin: auto;
+    position: absolute;
+    top: 4.5%;
+    left: 17%;
+    width: 65.5%;
+    height: 34px;
+    background: rgb(59, 99, 145);
+    background: linear-gradient(90deg, rgba(59, 99, 145, 1) -25%, rgba(52, 108, 157, 1) 47%, rgba(15, 33, 110, 1) 98%, rgba(16, 35, 111, 1) 99%);
+}
+
+.body .head .head_menu {
+    margin: auto;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 28px;
+
+
+}
+
+.body .head .head_menu span {
+    padding-top: 7px;
+
+    padding-bottom: 7px;
+    width: 100%;
+    height: 30px;
+    text-shadow: 0.1em 0.1em rgba(42, 42, 42, 0.168);
+}
+
+.body .head .head_menu span:hover {
+    background: rgb(47, 125, 190);
+    background: linear-gradient(90deg, rgba(47, 125, 190, 1) -25%, rgba(50, 117, 175, 1) 0%, rgba(48, 122, 184, 0) 85%, rgba(48, 122, 184, 0) 98%);
+}
+
+.body .head .head_menu a {
+    text-decoration: none;
+    color: #E5E5E5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 16px;
+}
+
+.body .head .head_menu .perfil_head {
+    position: absolute;
+    width: 3.7%;
+    height: 76%;
+    left: -2%;
+    top: 0px;
+}
+
+.body .head .head_menu .perfil_head img {
+    width: 14.1px;
+    height: 16px;
+}
+
+.body .head .bar_buscar {
+    position: absolute;
+    width: 20.5%;
+    height: 30%;
+    left: 79%;
+    top: 2px;
+    color: #a6a5a2;
+}
+
+.body .head .bar_buscar input::placeholder {
+    color: #142633;
+    font-size: 14px;
+    margin-top: 2px;
+    font-weight: 300;
+}
+
+.body .head .bar_buscar input {
+    border-radius: 3px;
+    border: 1px solid #22445b;
+    width: 100%;
+    height: 30px;
+    background-color: #316282;
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2);
+}
+
+.body .head .bar_buscar input.default {
+    font-style: italic;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-inline: 13px;
+}
+
+.body .head .bar_buscar .icon_bar_buscar {
+    position: absolute;
+    width: 13%;
+    border: 1px solid 65a5cc;
+    height: 26px;
+    left: 87%;
+    top: 2px;
+    cursor: text;
+
+}
+
+.body .head .bar_buscar img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.body .descricao_top {
+    position: absolute;
+    color: #636363;
+    font-family: 'motiva sans', 'sans-serif';
+    font-size: 12px;
+    font-weight: 100;
+    left: 17%;
+    top: 13.5%;
+    padding-left: 2px;
+}
+
+.body .descricao_top span {
+    color: #8f98a0;
+    font-weight: 400;
+    font-family: 'motiva sans', 'sans-serif';
+    font-size: 12px;
+}
+
+.body .descricao_top span:hover {
+    color: white;
+}
+
+.body .nome_game {
+    position: absolute;
+    font-family: 'motiva sans', 'sans-serif';
+    font-size: 26px;
+    color: white;
+    top: 15.9%;
+    left: 17%;
+}
+
+.body .central_comunidade {
+    margin: auto;
+    position: absolute;
+    top: 15.9%;
+    right: 17.5%;
+    width: 13%;
+    height: 4.7%;
+    z-index: 1;
+    background-color: #2e5071;
+    border-radius: 2px;
+}
+
+.body .central_comunidade p {
+    padding-top: 8px;
+    padding-left: 15px;
+    color: #67c1f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.body .video {
+    position: absolute;
+    left: 17%;
+    top: 22.7%;
+}
+
+.body .video video {
+    width: 94%;
+    cursor: pointer;
+}
+
+.body .img_show {
+    position: absolute;
+    right: 17.5%;
+    top: 22.7%;
+}
+
+.body .img_show img {
+    position: relative;
+    width: 315px;
+}
+
+.body .background_blur {
+    background-image: url(imagens/background_blur.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 22.7%;
+    right: 17.5%;
+    width: 65.6%;
+    height: 70%;
+    opacity: 0.6;
+}
+
+.body .carrosel_img {
+    position: absolute;
+    left: 14%;
+    top: 71%;
+    width: 45.7%;
+    height: 24px;
+    z-index: 3;
+    /* background-image: url(imagens/carrosel_imgs.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.body .carrosel_img img {
+    width: 100%;
+    height: 92px;
+}
+
+
+.body .descrpition {
+    position: absolute;
+    right: 18.4%;
+    top: 46%;
+
+}
+
+.body .descrpition p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c6d4df;
+    font-size: 13px;
+    padding: 1.5px;
+}
+.body .descrpition2  {
+    position: absolute;
+    right: 21.4%;
+    top: 61%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #677985;
+    font-size: 10px;
+
+}
+.body .descrpition2 p {
+    margin-top: 3px;
+}
+.body .descrpition2 .es {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
